@@ -1,0 +1,54 @@
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    .small-bold-text {
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .invite .invitation-row .invitation-box {
+        flex: 1 1 15rem;
+        height: 19rem;
+    }
+    section {
+        padding: 2rem 9%;
+        margin-top: 0rem;
+    }
+    .box {
+        border: 68px solid;
+        padding: 0px;
+        height: 258px;
+        width: 380px;
+        border-image-source: url(../static/photo/x2.png);
+        text-align: -webkit-center;
+        border-image-slice: 92;
+    }
+    .cta-section {
+        padding-block: 0px;
+    }
+}
+@media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }

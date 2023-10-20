@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+
+:root {
+    --clr1: rgb(21, 12, 104);
+    --clr2: rgb(236, 68, 90);
+    --clr3: #fff;
+    --clr4: #000;
+    --clr5: lightgray;
+    --clr6: yellow;
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+.box{
+    border: 60px solid;
+    padding: 21px;
+    height: 317px;
+    width: 672px;
+    border-image-source: url(../static/photo/x2.png);
+    text-align: -webkit-center;
+    border-image-slice: 94;
+    margin-left: 572px;
+    font-size: large;
+}
+
+
+
+.imgg{
+    width: 50px;
+
+
+/* utility*/
+
+.button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2294ed;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #1f08d2
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+}
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-shection);
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+/*---------------countdown time--------------------*/
+
+.top-banner {
+    background-image: url('../static/photo/asset 30.png');
+    background-color: #4fb3d4;
+    background-size: 300px;
+}
+
+.audio {
+    width: 148px;
+    height: 23px;
+}
+.video {
+    width: 100%;
+}
+
+.small-bold-text {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.banner-text {
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+html {
+    font-size: 56%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--clr1);
+}
+
+section {
+    padding: 2rem 9%;
+    margin-top: 7rem;
+}
+
+section h3 {
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+section p {
+    color: var(--clr3);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    justify-content: flex-start;
+}
+
+section h4 {
+    margin: 0 0 1rem 30rem;
+    width: 40%;
+    font-size: 4rem;
+    color: var(--clr3);
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    letter-spacing: .2rem;
+    background: var(--clr1);
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1.3rem 4rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    color: var(--clr3);
+    background-color: var(--clr2);
+    border: none;
+    box-shadow: 0rem 2rem 2rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    transform: translateY(-1rem);
+    transition: all .5s ease;
+}
+
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+}
+
+.title span {
+    color: var(--clr2);
+    font-size: 4rem;
+}
+
+.title p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--clr4);
+}
+
+.w-100 {
+    padding: 13px;
+    width: 100% !important;
+    height: 690px;
+}
+
+div.carousel-inner {
+    width:100%;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    /* bottom: 8.25rem; */
+    left: 15%;
+    padding-top: 1.25re;
+    padding-bottom: 1.25re;
+    color: #fff;
+    text-align: center;
+}
+
+.d-block {
+    display: block !important;
+    height: 100%;
+}
+
+
+/*--------------------------e-invitation section-----------*/
+
+.invite .invitation-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.invite .invitation-row .invitation-box {
+    flex: 1 1 25rem;
+    margin: 1rem;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+}
+
+.invite .invitation-row .invitation-box:hover {
+    transition: .5s ease;
+    transform: translateY(-2rem);
+}
+
+.invite .invitation-row .invitation-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* cta section */
+
+.cta-section-container {
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    text-align: center;
+}
+
+.cta-section {
+    padding: 120px var(--padding-inline-section) 80px;
+    background-color: #f1f4f6;
+}
+
+.cta-section-container p {
+    color: #000;
+    margin-top: 20px;
+}
+.thanks{
+    width: 50%;
+}
+.pclass{
+    font-size: 18px;
+}
+
+/* footer */
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* subfooter */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* newD create by you for desisgn    */
+.left-newD {
+        border: 1px solid black;
+        border-radius: 101px;
+        width: 10%;
+        margin-left: 42px;
+    }
+    
+.newD-img{
+    height: 181px;
+    width: 121px;
+    margin-left: 24px;
+
+}
+   
+.right-newD {
+    border: 2px solid black;
+    width: 12%;
+    font-size: initial;
+}
+.newD{
+
+}
